@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -12,14 +12,21 @@
   <header class="main_header">
     <nav class="navigation">
       <div class="menu_user">
-        <input class="search">поиск по сайту</input>
+        <form action="https://echo.htmlacademy.ru/" method="GET">
+        <input class="search">Поиск по сайту</input>
+        <button class="button" type="submit">Найти</button>
+        </form>
         <ul class="navigation-list">
           <li class="navigation_item">
-            <a class="navigation_link" href="#">Войти</a>
+            <a class="navigation_link" href="#">Коля Петухов</a>
+          </li>
+          <li class="navigation_item">
+            <a class="navigation_link" href="#">Выйти</a>
           </li>
           <li class="navigation_item">
             <a class="navigation_link" href="#">Сравнить</a>
           </li>
+          <span class="number_items">2</span>
           <li class="navigation_item">
             <a class="navigation_link" href="#">Корзина</a>
           </li>
@@ -27,12 +34,14 @@
       </div>
       <div class="items_catalog_menu">
         <a class="navigation_link" href="#">каталог товаров</a>
+        <ul class="catalog_menu_items">
         <a class="navigation_link" href="#">Виртуальная реальность </a>
         <a class="navigation_link" href="#">Моноподы для cелфи</a>
         <a class="navigation_link" href="#">Экшн-камеры</a>
         <a class="navigation_link" href="#">Фитнес-браслеты</a>
         <a class="navigation_link" href="#">Умные часы</a>
         <a class="navigation_link" href="#">Квадрокоптеры</a>
+        </ul>
       </div>
       <ul class="menu_main">
         <li><a class="navigation_link" href="#">доставка</a></li>
@@ -40,7 +49,7 @@
         <li><a class="navigation_link" href="#"></a>контакты</li>
       </ul>
     </nav>
-    <span class="logo_main">device</span>
+    <a href="index.html" class="logo_main"><img src="/img/Vector.svg" alt="device logo"></a>
   </header>
   <main class="main_inner">
     <h1>Моноподы для селфи</h1>
@@ -207,7 +216,7 @@
       </ul>
     </div>
     <div class="footer_right_side">
-      <p>Тел.: +7 (812) 812-12-12</p>
+      <a href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a href="https://htmlacademy.ru/"><img src="/img/htmlacademy.svg" alt="logo html academy"></a>
     </div>
   </footer>
