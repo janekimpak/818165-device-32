@@ -2,8 +2,7 @@
   font-family: "rubik";
   font-style: normal;
   font-weight: 400;
-  src: url("/Users/janepark/Desktop/818165-device-32/fonts/rubik/rubik-400.woff2")
-    format("woff2");
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -11,17 +10,7 @@
   font-family: "rubik";
   font-style: normal;
   font-weight: 700;
-  src: url("/Users/janepark/Desktop/818165-device-32/fonts/rubik/rubik-700.woff2")
-    format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "rubik";
-  font-style: italic;
-  font-weight: 400;
-  src: url("/Users/janepark/Desktop/818165-device-32/fonts/rubik/rubik-400.woff2")
-    format("woff2");
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -29,54 +18,69 @@
   font-family: "rubik";
   font-style: italic;
   font-weight: 700;
-  src: url("/Users/janepark/Desktop/818165-device-32/fonts/rubik/rubik-700.woff2")
-    format("woff2");
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
   font-display: swap;
 }
 
-/* rubik Narrow */
-@font-face {
-  font-family: "rubik Narrow";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/Users/janepark/Desktop/818165-device-32/fonts/rubik/rubik-700.woff2")
-    format("woff2");
-  font-display: swap;
-}
 /* raleway */
 
 @font-face {
   font-family: "raleway";
   font-style: normal;
   font-weight: 800;
-  src: url("/Users/janepark/Desktop/818165-device-32/fonts/raleway/raleway-800.woff2")
-    format("woff2");
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
-  font-family: "rubik", sans-serif;
+  margin: 0;
+  font-family: "rubik", "Arial", sans-serif;
   font-size: 18px;
   font-display: swap;
   line-height: 30px;
   color: #242424;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
-
+.main.index {
+}
+.main_container {
+  flex-grow: 1;
+}
 .main_header {
   background-color: #ffe17f;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation_list {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.menu_user {
+  width: 1075px;
 }
 
 .menu_users_list {
-  font-family: rubik, sans-serif;
+  display: flex;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  color: #000000;
 }
 
 .menu_main_list {
-  font-family: raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -86,7 +90,6 @@ body {
 }
 
 .catalog_menu_items {
-  font-family: rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -94,11 +97,19 @@ body {
 }
 
 .category {
-  font-family: Raleway, sans-serif;
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
+}
+
+.category_img {
+  background-color: #ffe17f;
 }
 
 .services {
@@ -106,14 +117,14 @@ body {
 }
 
 .services_head {
-  font-family: Raleway, sans-serif;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
 }
 .services_link {
-  font-family: Raleway, sans-serif;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -131,7 +142,7 @@ body {
 }
 
 .delivery_string_head {
-  font-family: Raleway, sans-serif;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -151,7 +162,7 @@ body {
 .about_us_head,
 .email_subscribe_head,
 .main_inner_head {
-  font-family: Raleway, sans-serif;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
@@ -159,7 +170,6 @@ body {
 }
 
 .about_us_list {
-  font-family: rubik, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -167,7 +177,6 @@ body {
 }
 
 .contacts_second_head {
-  font-family: rubik, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -177,7 +186,7 @@ body {
 
 .about_us_link,
 .write_us {
-  font-family: Raleway, sans-serif;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -188,7 +197,7 @@ body {
 }
 
 .submit_button {
-  font-family: Raleway, sans-serif;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -200,19 +209,35 @@ body {
 
 .main_footer {
   background-color: #444444;
+  display: flex;
+  margin: 0 auto;
+  width: 1440px;
+  justify-content: space-between;
+}
+.image_footer_logo {
+  display: flex;
+  width: 145px;
+  margin-top: 62px;
 }
 
 .address {
-  font-family: rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+  width: 235px;
+  margin-top: 35px;
+}
+
+.footer_divider {
+  margin-top: 66px;
 }
 
 .footer_center_list {
-  font-family: Raleway, sans-serif;
+  display: flex;
+  width: 458px;
+  font-family: "raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -223,8 +248,12 @@ body {
   color: #ffffff;
 }
 
+.footer_center_items {
+  display: flex;
+  text-decoration: none;
+}
+
 .telephone {
-  font-family: rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
