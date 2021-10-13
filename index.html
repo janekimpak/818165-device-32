@@ -12,106 +12,121 @@
   <header class="main_header">
     <nav class="navigation">
       <div class="menu_user">
+        <div class="search_field">
         <input>поиск по сайту</input>
+        </div>
         <ul class="navigation_list menu_users_list">
-          <li><a href="#">Войти</a></li>
-          <li><a href="#">Сравнить</a></li>
-          <li><a href="#">Корзина</a></li>
+          <li class="menu_users_comein"><a href="#">Войти</a></li>
+          <li class="menu_users_compare"><a href="#">Сравнить</a></li>
+          <li class="menu_users_bascket"><a href="#">Корзина</a></li>
         </ul>
       </div>
-      <div class="navigation_list items_catalog_menu">
-        <a href="#">каталог товаров</a>
-        <ul class="catalog_menu_items">
+      <div class="navigation_list catalog_menu">
+        <a class="catalog" href="#">каталог товаров</a>
+      <div class="menu_main_container">
+        <ul class="navigation_list_main  menu_main_list">
+          <li class="menu_main delivery"><a href="#">доставка</a></li>
+          <li class="menu_main waranty"><a href="#">гарантия</a></li>
+          <li class="menu_main contacts"><a href="#">контакты</a></li>
+        </ul>
+      </div>
+      </div>
+      <ul class="catalog_menu_items">
         <a href="#">Виртуальная реальность </a>
         <a href="#">Моноподы для cелфи</a>
         <a href="#">Экшн-камеры</a>
         <a href="#">Фитнес-браслеты</a>
         <a href="#">Умные часы</a>
         <a href="#">Квадрокоптеры</a>
-        </ul>
-      </div>
-      <div class="menu_main">
-        <ul class="navigation_list  menu_main_list">
-          <li><a href="#">доставка</a></li>
-          <li><a href="#">гарантия</a></li>
-          <li><a href="#">контакты</a></li>
-        </ul>
-      </div>
+      </ul>
     </nav>
     <img src="img/device-logo.svg" alt="device" width="145px" height="36px">
   </header>
   <main class="main_container main_index">
     <section class="category">
       <h2 class="visually_hidden">Category</h2>
-      <div class="virtualReallety">
+      <div class="category_items virtualReallety">
         <img class="category_img virtual_reallety_img" src="img/virtual-reallety.svg" width="160px" height="160px" alt="VR device">
         <p>Виртуальная реальность</p>
       </div>
-      <div>
+      <div class="category_items">
         <img class="category_img monopod_img" src="img/monopod.svg" width="160px" height="160px" alt="Monopod device">
         <p>Моноподы для селфи</p>
       </div>
-      <div>
+      <div class="category_items">
         <img class="category_img camera_img" src="img/camera.svg" width="160px" height="160px" alt="Camera device">
         <p>Экшн-камеры</p>
       </div>
-      <div>
+      <div class="category_items">
         <img class="category_img fit_watch_img" src="img/fit-watch.svg" width="160px" height="160px" alt="Fitness-tracker device">
         <p>Фитнес-браслеты</p>
       </div>
-      <div>
+      <div class="category_items">
         <img class="category_img smart_watch_img" src="img/smart-watch.svg" width="160px" height="160px" alt="Smart-watch device">
         <p>Умные часы</p>
       </div>
-      <div>
+      <div class="category_items">
         <img class="category_img quadrocoupter_img" src="img/quadrocoupter.svg" width="160px" height="160px" alt="Quadcopter device">
         <p>Квадрокоптеры</p>
       </div>
     </section>
     <section class="services">
       <h2 class="visually_hidden">services</h2>
-      <div class="delivery">
-        <h2 class="services_head">Доставка</h2>
+      <div class="services_content delivery">
         <a class="services_link" href="#">Доставка</a>
+        <div class="services_content_middle">
+        <h2 class="services_head">Доставка</h2>
         <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
           заработаем, поднимая
           его на ваш этаж.</p>
-        <img src="/Users/janepark/Desktop/818165-device-32/img/illustration-delivery .png" width="260px" height="240px" alt="postman">
+          </div>
+        <img class="services_images" src="img/illustration-delivery .png" width="260px" height="240px" alt="postman">
       </div>
-      <div class="warranty">
-        <h2 class="services_head">Гарантия</h2>
+      <div class="services_content warranty">
         <a class="services_link" href="#">Гарантия</a>
+        <div class="services_content_middle">
+        <h2 class="services_head">Гарантия</h2>
         <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар,
           не дом,
           конечно же.</p>
-        <img src="img/illustration-warranty .png" width="260px" height="240px" alt="services chat">
+        </div>
+        <img class="services_images" src="img/illustration-warranty .png" width="260px" height="240px" alt="services chat">
       </div>
-      <div class="credit">
-        <h2 class="services_head">Кредит</h2>
+      <div class="services_content credit">
         <a class="services_link" href="#">Кредит</a>
+        <div class="services_content_middle">
+          <h2 class="services_head">Кредит</h2>
         <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
           кредита. Выгодные
           для банка, разумеется.</p>
-        <img src="img/illustration-credit .png" width="260px" height="240px" alt="credit">
+        </div>
+          <img class="services_images" src="img/illustration-credit .png" width="260px" height="240px" alt="credit">
       </div>
     </section>
+    <div class="about_us_delivery">
     <a href="#" class="delivery_string">
       <img class="car_icon" src="img/GroupCar.svg" alt="track">
       <h2 class="delivery_string_head">Доставим редкий товар под заказ</h2>
       <img class="info_icon" src="img/info 1.svg" alt="info-icon">
     </a>
-    <section class="aboutUs">
+    <div class="about_us_container">
+    <section class="about_us">
+      <span><img src="img/divider_black.svg" alt="декоративный элемент, черная полоса"></span>
       <h2 class="about_us_head">О нас</h2>
+      <div class="about_us_text">
       <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас. </p>
       <p>Мы можем доставить ваш товар в самые
         отдалённые уголки России транспортными компаниями:</p>
+      </div>
       <ul class="about_us_list">
         <li>Меловый линии</li>
         <li>СДИК</li>
         <li>ТоксБерри</li>
       </ul>
       <a class="about_us_link" href="#">Подробнее о нас</a>
+    </section>
       <div class="contacts">
+        <span><img src="img/divider_black.svg" alt="декоративный элемент, черная полоса"></span>
         <h2 class="about_us_head">Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, сможете проверить работоспособность покупки.</p>
         <h3 class="contacts_second_head">Интернет-магазин «Девайс»</h3>
@@ -122,13 +137,14 @@
         <p>сб—вс: с 10:00 до 19:00</p>
         <a href="#" class="write_us">Напишите нам</a>
       </div>
-    </section>
+    </div>
+    </div>
     <section class="mailing">
       <h2 class="email_subscribe_head">Подпишитесь на рассылку</h2>
-      <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции,
+      <p class="mailing_text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции,
         спецпредложения и вот
         это вот всё.</p>
-      <form action="https://echo.htmlacademy.ru/" method="POST">
+      <form class="form_subscribe" action="https://echo.htmlacademy.ru/" method="POST">
         <input id="email" type="email" name="email" value="Ваш e-mail">
       <button  class="submit_button" type="submit">ПОДПИСАТЬСЯ</button>
       </form>
@@ -147,8 +163,8 @@
         <li class="footer_center_items><a href="#">Гарантия</a></li>
         <li class="footer_center_items><a href="#">Контакты</a></li>
       </ul>
-      <ul>
-        <li><a href="https://www.facebook.com/htmlacademy"><img src="img/facebook.svg" alt="facebook"></a></li>
+      <ul class="social_icons">
+        <li class="social_list"><a href="https://www.facebook.com/htmlacademy"><img src="img/facebook.svg" alt="facebook"></a></li>
         <li><a href="https://www.instagram.com/htmlacademy/"><img src="img/instagram.svg" alt="instagram"></a></li>
         <li><a href="https://twitter.com/htmlacademy_ru"><img src="img/twitter.svg" alt="twitter"></a></li>
       </ul>
