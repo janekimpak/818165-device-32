@@ -66,6 +66,7 @@ body {
   background-color: #ffe17f;
   width: 1160px;
   margin: 0 auto;
+  padding-top: 48px;
 }
 
 .navigation {
@@ -91,6 +92,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #444444;
 }
 
 .menu_user {
@@ -256,6 +258,7 @@ a {
   display: flex;
   width: 1160px;
   margin: auto;
+  padding-bottom: 87px;
 }
 
 .about_us {
@@ -285,8 +288,18 @@ a {
   background-color: #f0f0f0;
   width: 1440px;
   margin: 0 auto;
+
+  padding-bottom: 134px;
+  padding-top: 75px;
   flex-wrap: wrap;
 }
+.email_subscribe_head {
+  width: 560px;
+  padding-left: 140px;
+  margin-top: 0px;
+  margin-bottom: 53px;
+}
+
 .about_us_delivery {
   margin: 0 auto;
   width: 1160px;
@@ -313,6 +326,7 @@ a {
 
 .form_subscribe {
   width: 861px;
+  padding-left: 140px;
 }
 
 .about_us_list {
@@ -436,6 +450,14 @@ a {
   line-height: 30px;
   margin-top: 133px;
   margin-bottom: 53px;
+  margin-right: 140px;
+}
+
+.footer_html_link {
+  display: flex;
+  text-align: end;
+  margin-right: 139px;
+  align-content: flex-end;
 }
 
 .filters {
