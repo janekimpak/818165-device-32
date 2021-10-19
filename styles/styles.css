@@ -44,7 +44,9 @@ body {
   flex-direction: column;
   min-height: 100%;
 }
-
+html {
+  height: 100%;
+}
 .visually_hidden,
 .visually-hidden {
   position: absolute;
@@ -276,6 +278,7 @@ a {
   display: flex;
   flex-flow: column;
   width: 497px;
+  min-height: 202px;
 }
 
 .info_icon {
@@ -334,6 +337,7 @@ a {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
+  margin-top: 23px;
 }
 .contacts {
   display: flex;
@@ -358,6 +362,7 @@ a {
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-top: auto;
 }
 
 .submit_button {
@@ -463,21 +468,37 @@ a {
 .filters {
   display: flex;
   margin-right: 0px;
+  margin-top: 59px;
   flex-flow: column;
   width: 468px;
   background-color: #ebebeb;
+  margin-right: 72px;
 }
 .filters_head {
+  margin: 0;
+  width: 236px;
   background-color: #dcdcdc;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 200px;
+  padding-right: 32px;
 }
 
 .sorting {
-  width: 972px;
+  width: 960px;
   background-color: #ebebeb;
   margin-top: 49px;
   margin-bottom: 71px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 72px;
+}
+
+.sorting-type {
+  display: flex;
+  width: 760px;
 }
 
 .button_more {
@@ -536,4 +557,14 @@ a {
   display: flex;
   width: 560px;
   margin: 0 auto;
+}
+
+.catalog_products {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.catalog_right_column {
+  width: 760px;
 }
